@@ -22,7 +22,7 @@ This project focuses on building and training a machine learning model that can 
 - Train the model:
   python src/train.py
 
--The best trained model will be saved in the 'outputs/' directory.
+- The best trained model will be saved in the 'outputs/' directory.
 
 ## Design and Documentation
 - Model architecture and mathematical logic are explained in 'docs/model_working.md'
@@ -32,5 +32,6 @@ This project focuses on building and training a machine learning model that can 
 
 On the test set, the model achieves a mean quantum fidelity of approximately 0.97 and a mean trace distance of around 
 0.079. The average inference latency is approximately 2.846 ms per density matrix reconstruction on CPU. Due to random dataset generation and training initialization, results may vary slightly across runs.
+
 
 
